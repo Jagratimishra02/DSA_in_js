@@ -25,15 +25,22 @@ console.log("sum of a and b is :" + (a+b));     // output is string  , string + 
 
 
 
-
-//+++++++++++++++++ TYPE COERCION ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
 console.log(1+"1");  // output is string bcoz of concatination
-
+//+++++++++++++++++ TYPE COERCION ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 console.log(1-"1");    // op is num
 console.log(1*"1");     //op is num
 console.log(1/"1");     //op is num
 console.log(1%"1");     // op is num
+
+
+// Accept and print the ans
+
+//# conversion of any type like num <=> string , boolean <=> num , etc is known as TypeCasting or Typeconversion
+
+let age  = Number(prompt("what is your age"));
+console.log(age);
+console.log(typeof(age));
+
+
 
 

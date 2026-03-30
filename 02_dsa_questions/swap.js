@@ -41,3 +41,4 @@ console.log(X % 10);  // to get last digit , % 100 to get last 2 digit
 
 
 
+
